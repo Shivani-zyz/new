@@ -2,8 +2,128 @@
   margin: 0px;
   padding: 0px;
 }
-@media(max-width:400px) {}
+@media (max-width: 768px) {
+  .landing-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    position: relative;
+    top: 100px;
+  }
 
+  .text-section h1,p,.button {
+    position: relative;
+    left: -50px;
+  }
+
+  .text-section {
+    left: 0;
+    top: 0;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #hr{
+    background-color: white;
+    border: none;
+    width: 0px;
+    height: 0px;
+  }
+
+  .chip-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    right: 300px;
+  }
+
+  .wil-web {
+    top: 0;
+    left:0px;
+    position: static;
+    width: 100%;
+  }
+
+  .hidden{
+    display: flex;
+    flex-direction: column;
+  }
+  .header h2 {
+    font-size: 1.5rem;
+    top: 0;
+  }
+  
+
+  .content {
+    margin: 30px 10px;
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+  }
+
+  .content p{
+    position: relative;
+    left: 20px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .how-we-work {
+    right: 0;
+    padding: 40px 20px;
+  }
+
+  #hub1{
+    position: relative;
+  }
+  
+  .hub {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .hub-container{
+    display: flex;
+   flex-wrap: wrap;
+  }
+}
+
+
+#hub1{
+  position:relative;
+   left:-50px;
+   top:50px;
+}
+#hub2{
+  position:relative;
+top:320px;
+right:100px;
+}
+#hub3{
+  position:relative;
+  left:-130px;
+}
+#hub4{
+  position:relative;
+  left:-120px;
+  top:200px;
+}
+#hub5{
+  position:relative;
+   left:-100px;
+   top:100px;
+}
+#hr{
+  height:2px;
+  width:40px;
+  background-color: #282828;
+  position:relative; 
+  top:20px;
+}
 
 .landing-container {
   font-family: Arial, sans-serif;
@@ -64,7 +184,7 @@
 
 .header h1 {
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 4.5rem;
   margin: 0;
   color: #14257e;
   text-shadow: rgb(255, 255, 255) 0px 0.07px 0px, rgb(255, 255, 255) 0px 0.7px 0px, rgb(255, 255, 255) 0.7px -0.7px 0px, rgb(255, 255, 255) -0.7px -0.7px 0px;

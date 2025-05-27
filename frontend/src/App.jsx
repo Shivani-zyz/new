@@ -4,17 +4,16 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Contact from './components/Contact'
 
+
 function App() {
   
-
-  
+ 
 
   return (
     <>
-      
-
-
       <Contact/>
+
+      
 
 
     </>
