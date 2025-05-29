@@ -1,0 +1,230 @@
+@media (max-width: 1024px) {
+  .android, .craft-text ul, .development ul {
+    flex-direction: column;
+    padding: 0 5%;
+  }
+
+  .android-text, .android-img, .craft-text li, .development li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .discover-container {
+    justify-content: center;
+  }
+
+  .discover-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .android {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .android-img {
+   width: 400px;
+    margin-bottom: 20px;
+  }
+
+  .android-text {
+    width: 100%;
+  }
+
+  .craft-text ul,
+  .development ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .discover-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .discover-title {
+    font-size: 28px;
+  }
+
+  .dedicate p{
+    margin-left: 40px;
+  }
+
+  .discover-subtitle {
+    font-size: 14px;
+  }
+
+  .discover-card h2 {
+    font-size: 16px;
+  }
+
+  .discover-card p {
+    font-size: 13px;
+  }
+
+  .development h1,
+  .craft-text h1,
+  .android-text h1 {
+    font-size: 28px;
+  }
+
+  .android-text p,
+  .craft-text p,
+  .development p {
+    font-size: 14px;
+    word-spacing: 4px;
+  }
+}
+
+
+
+.android{
+    display: flex;
+    padding: 0% 10%;
+    justify-content: space-around;
+}
+.android-img{
+    width: 550px;
+    border-radius: 18px;
+}
+.android-text{
+    width: 50%;
+    font-family: sans-serif;
+}
+.android-text h1{
+    font-size: 40px;
+    line-height: 1.3;
+}
+.android-text p{
+    font-size: 16px;
+    line-height: 1.7;
+    word-spacing: 8px;
+    color: rgb(65, 65, 65);
+}
+.craft{
+    background-color: rgb(246, 244, 244);
+    padding: 5% 10%;
+}
+.craft-text p{
+font-size: 16px;
+    line-height: 1.7;
+    word-spacing: 8px;
+    color: rgb(65, 65, 65);
+}
+.craft-text h1{
+    font-size: 40px;
+    line-height: 1.3;
+}
+.craft-text ul{
+    display: flex;
+    font-family: sans-serif;
+    list-style: none;
+}
+.craft-text li{
+    width: 50%;
+}
+.development{
+    font-family: sans-serif;
+}
+.development h1{
+    font-size: 55px;
+    color: rgb(23, 151, 214);
+}
+.development ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.development li{
+    width: 30%;
+}
+.development p{
+    font-size: 16px;
+    line-height: 1.6;
+    word-spacing: 8px;
+    color: rgb(65, 65, 65);
+}
+.ideas{
+    background-color: black;
+    padding: 2% 15%;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ideas p{
+    text-align: center;
+}
+.project{
+    padding: 2% 30%;
+     background-color: rgb(23, 151, 214);
+     color: white;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dedicate{
+    background-image: url(https://stileupdigital.com/wp-content/uploads/2018/09/mobile-app-development.jpg);
+    background-size: cover;
+    background-position: 50%;
+    padding: 3% 15%;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: white;
+
+}
+.dedicate p{
+    font-size:22px;
+    letter-spacing: 2px;
+}
+
+.discover {
+  padding: 2% 15%;
+  background-color: #f9fbfd;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.discover-title {
+  font-size: 40px;
+  color: #339aff;
+  margin-bottom: 10px;
+  text-align: start;
+}
+.discover-subtitle {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 40px;
+  text-align: start;
+  line-height: 2;
+}
+
+.discover-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.discover-card {
+  background-color: white;
+  padding: 30px;
+  width: 230px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.discover-card h2 {
+  font-size: 18px;
+  color: #111;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.discover-card p {
+  font-size: 14px;
+  color: #555;
+  letter-spacing: 0.5px;
+  word-spacing: 3px;
+  line-height: 1.4;
+}
